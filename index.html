@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel = "stylesheet" href="paymentForm.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1 class="mainHeading">Payment Form</h1>
+        <hr>
+        <h2>User Information</h2>
+
+        <p>Name: *
+            <input type="text" required name = "name" placeholder="sandeep kumawat">
+        </p>
+
+        <p>
+            <fieldset>
+                <legend> Gender</legend>
+                Male<input type="radio" name = "gender" id="male">
+                Female<input type = "radio" name = "gender" id=" male">
+
+            </fieldset>
+        </p>
+
+        <p>
+            Address:
+            <textarea placeholder=" Enter your Address" name = "address" id = "address"> </textarea>
+        </p>
+
+        <p>
+            Email:
+            <input type="email" name = "email" id= "email" required placeholder="sandeepkumawat246@gmail.com"
+        </p>
+        <p>
+            pincode: <input type="pincode" name="pincode" required placeholder="12345"
+        </p>
+
+        <h2>Payment Information</h2>
+        <p><div class="padding">
+                <div class="row">
+                    <div class="container-fluid d-flex justify-content-center">
+                        <div class="col-sm-8 col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+        
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <span>CREDIT/DEBIT CARD PAYMENT</span>
+                                        
+                                    </div>
+        
+                                    <div class="col-md-6 text-right" style="margin-top: -5px;">
+        
+                                          <img src="https://img.icons8.com/color/36/000000/visa.png">
+                                          <img src="https://img.icons8.com/color/36/000000/mastercard.png">
+                                          <img src="https://img.icons8.com/color/36/000000/amex.png">
+                                                   
+                                    </div>      
+                                    </div>      
+                                    </div>      
+                                    </div>      
+                                    </div>      
+                                    </div>      
+        
+                                </div>    
+          
+                                </div>
+                            
+        
+        </p>
+
+        <p>Card Type:</p> <select name ="card" id "card">
+        <option >--Select Card Type Here--</option>
+        <option value= " VISA"> VISA</option>
+        <option value= " AMERICAN EXPRESS"> AMERICAN EXPRESS</option>
+        <option value= " DEBIT"> DEBIT</option>
+        <option value= " PayPal"> DISCOVER</option>
+        <option value="Other">Other</option>
+        </select>
+        
+        <p>
+            Card Number:*
+            <input type="text" name="number" placeholder="1111-2222-3333-4444"       
+         </p>
+         <p>
+            Expiration Date
+            <input type="date" name = "date" 
+         </p>
+         <p>
+            CVV
+            <input type="text" name = "CVV"  placeholder="123"
+         </p>
+         <br>
+         <br> 
+         <button type="submit" id="button"> Pay Now</button>
+    </div>
+
+
+
+
+</body>
+</html>
